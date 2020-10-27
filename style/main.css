@@ -59,7 +59,7 @@
 
 .header {
     padding: 51px 0 71px;
-    background: url(/image/background/header-background.png) no-repeat; 
+    background: url(../image/background/header-background.png) no-repeat; 
     background-size:100% 100%; 
 }
 
