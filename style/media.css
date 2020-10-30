@@ -70,4 +70,16 @@
        text-align: center;
     }
 
+
+    /* feedback==================================== */
+    .feedback {
+        margin-top: 0;
+    }
+    
+
+    /* contact======================================= */
+
+    .input-group__button {
+        min-width: 250px;
+    }
 }
