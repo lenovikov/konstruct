@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="wrap">
-        <header class="header">
+        <header class="header" id="header">
             <div class="container">
                 <div class="header__row">
                     <div class="header__logo"><h1 class="logo__h1  logo">konstru<span class="logo__span">k</span>t</h1></div>
@@ -27,18 +27,21 @@
                     <div class="navigation__logo"><h2 class="logo__h2 logo">konstru<span class="logo__span">k</span>t</h2></div>
                     <nav class="navigation-nav">
                         <ul class="navigation-nav__list">
-                            <li class="navigation-nav__item navigation-nav__item--indent   "><a class="navigation-nav__link" href="#">Home</a></li>
-                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#">About</a></li>
-                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#">Services</a></li>
-                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#">Work</a></li>
-                            <li class="navigation-nav__item"><a class="navigation-nav__link" href="">Contact</a></li>
+                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#header">Home</a></li>
+                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#main">About</a></li>
+                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#services">Services</a></li>
+                            <li class="navigation-nav__item navigation-nav__item--indent"><a class="navigation-nav__link" href="#feedback">Work</a></li>
+                            <li class="navigation-nav__item"><a class="navigation-nav__link" href="#contact">Contact</a></li>
                         </ul>
                     </nav>
+                    <div class="menu-btn">
+                        <span class="menu-btn__burger"></span>
+                    </div>
                 </div>
             </div>
         </div><!-- navigation -->
 
-        <main class="main">
+        <main class="main" id="main">
             <div class="container">
                 <div class="main__header">
                    <h2 class="main__title title">Our story</h2>
@@ -57,50 +60,45 @@
             </div>
         </main><!-- main -->
 
-
-        <!--  -->
-
-        <div class="services">
+        <div class="services" id="services">
             <div class="container">
-                <!-- <div class="services__row"> -->
-                    <div class="services__header">
-                        <h2 class="services__title title">Our copabilities</h2>
-                        <p class="services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                    <button class="services__button button">All sevices</button>
-                    </div>
-                    <div class="services__body">
-                        <div class="services__column">
-                            <div class="item-services">
-                                <div class="items-services__icon"><img src="image/icon/icon-project.png" alt=""></div>
-                                <h3 class="item-services__title">Project and constuction managment</h3>
-                                <p class="item-services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                            </div>
-                            <div class="item-services">
-                                <div class="items-services__icon"><img src="image/icon/structure-icon.png" alt=""></div>
-                                <h3 class="item-services__title">Structure audit and maintance</h3>
-                                <p class="item-services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                            </div>
-                            <div class="item-services">
-                                <div class="items-services__icon"> <img src="image/icon/factory-icon.png" alt=""></div>
-                                <h3 class="item-services__title">Factory construction and modeling</h3>
-                                <p class="item-services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                            </div>
+                <div class="services__header">
+                    <h2 class="services__title title">Our copabilities</h2>
+                    <p class="services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                <button class="services__button button button--color">All sevices</button>
+                </div>
+                <div class="services__body">
+                    <div class="services__column">
+                        <div class="item-services">
+                            <div class="items-services__icon"><img src="image/icon/icon-project.png" alt=""></div>
+                            <h3 class="item-services__title">Project and constuction managment</h3>
+                            <p class="item-services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                        <div class="item-services">
+                            <div class="items-services__icon"><img src="image/icon/structure-icon.png" alt=""></div>
+                            <h3 class="item-services__title">Structure audit and maintance</h3>
+                            <p class="item-services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                        <div class="item-services">
+                            <div class="items-services__icon"> <img src="image/icon/factory-icon.png" alt=""></div>
+                            <h3 class="item-services__title">Factory construction and modeling</h3>
+                            <p class="item-services__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                         </div>
                     </div>
-                <!-- </div> -->
+                </div>
             </div>
         </div><!-- services -->
 
-        <div class="feedback">
+        <div class="feedback" id="feedback">
             <div class="container">
                 <div class="feedback__row">
                     <h2 class="feedback__title">Want to build something amazing?</h2>
-                    <button class="feedback__button button">Get in touch</button>
+                    <button class="feedback__button button button--color">Get in touch</button>
                 </div>
             </div>
         </div><!-- feedback -->
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="container">
                 <div class="contact__row">
                     <h2 class="contact__title">Newsletter Signup</h2>
@@ -108,43 +106,47 @@
                         <label class="input-group__label">
                             <input type="email" placeholder="Email"  class="input-group__input">
                         </label>
-                        <button class="input-group__button button">Sign Up</button>
+                        <button class="input-group__button button button--color">Sign Up</button>
                     </form>
                 </div>
             </div>
         </div><!-- contact -->
 
-        <!-- <footer class="footer">
+        <footer class="footer">
             <div class="container">
                 <div class="footer__row">
                     <div class="footer__part-logo">
                         <p class="part-logo__p">Company</p>
-                        <div class="footer__logo"><h2 class="part-logo__logo logo">konstru<span class="logo__span">k</span>t</h2></div>
+                        <h2 class="part-logo__logo logo">konstru<span class="logo__span">k</span>t</h2>
                         <p class="part-logo__text ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                     </div>
-                    <div class="footer__structure">
+                    <div class="footer__center-main">
                         <p class="structure__link">links</p>
-                        <ul>
-                            <li><a class="structure__element footer__text">Home</a</li>
-                            <li><a class="structure__element footer__text">About</a></li>
-                            <li><a class="structure__element footer__text">Services</a></li>
-                            <li><a class="structure__element footer__text">Projects</a></li>
-                            <li><a class="structure__element footer__text">Contact us</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__part-center">
-                        <ul>
-                            <li><a class="part-center__element footer__text">Faq</a></li>
-                            <li><a class="part-center__element footer__text">Terms</a></li>
-                            <li><a class="part-center__element footer__text">Careers</a></li>
-                        </ul>   
-                    </div>
-                    <div class="footer__blog">
-                        <ul>
-                            <li><a class="blog__element footer__text">Blog</a></li>
-                            <li><a class="blog__element footer__text">Partners</a></li>
-                            <li><a class="blog__element footer__text">News</a></li>
-                        </ul>   
+                        <div class="footer__center">
+                            <div class="footer__structure">
+                                <ul>
+                                    <li><a class="structure__element footer__text">Home</a></li>
+                                    <li><a class="structure__element footer__text">About</a></li>
+                                    <li><a class="structure__element footer__text">Services</a></li>
+                                    <li><a class="structure__element footer__text">Projects</a></li>
+                                    <li><a class="structure__element footer__text">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__part-center">
+                                <ul>
+                                    <li><a class="part-center__element footer__text">Faq</a></li>
+                                    <li><a class="part-center__element footer__text">Terms</a></li>
+                                    <li><a class="part-center__element footer__text">Careers</a></li>
+                                </ul>   
+                            </div>
+                            <div class="footer__blog">
+                                <ul>
+                                    <li><a class="blog__element footer__text">Blog</a></li>
+                                    <li><a class="blog__element footer__text">Partners</a></li>
+                                    <li><a class="blog__element footer__text">News</a></li>
+                                </ul>   
+                            </div>
+                        </div>    
                     </div>
                     <div class="footer__inform">
                         <p class="inform__us inform__text">Contact us</p>
@@ -153,16 +155,16 @@
                         <p class="inform__email inform__text"> +23 994 233 4022</p>
                     </div>
                     <div class="footer__link">
-                      <ul>
-                          <li class="link__li"><a href="#"><img src="image/icon/facebook.png" alt="фейсбук"></a></li>
-                          <li class="link__li"><a href="#"><img src="image/icon/twitter.png" alt="твиттер"></a></li>
-                          <li class="link__li"><a href="#"><img src="image/icon/googlepng.png" alt="гуггл"></a></li>
+                      <ul class="link-icon">
+                          <li class="link__li"><a href="https://www.facebook.com/"><img src="image/icon/facebook.png" alt="фейсбук"></a></li>
+                          <li class="link__li"><a href="https://twitter.com/?lang=ru"><img src="image/icon/twitter.png" alt="твиттер"></a></li>
+                          <li class="link__li"><a href="https://www.google.by/"><img src="image/icon/googlepng.png" alt="гуггл"></a></li>
                       </ul>
                     </div>
                 </div>
+                <p class="copyright"> &copy; 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
             </div>
-        </footer>< !footer -->
- -->
+        </footer><!-- < !footer -->
     </div>
     
 </body>
