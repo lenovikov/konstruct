@@ -4,19 +4,15 @@
         display: none;
     }
 
-    .navigation__logo {
-        display: none;
-    }
-
-    .menu-btn {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
-  
-
+    .navigation__row {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        padding-left: 15px; 
+        z-index: 1;   
+        backdrop-filter: blur(5px);   
+    }  
 /* MAIN================================================ */
 
     .main__body {
@@ -186,6 +182,15 @@
     }
 
     /* services =========================================]*/
+
+    .container {
+        max-width: 80%;
+    }
+
+    .services__card {
+        margin-right: 0;
+        margin-left: 0;
+    }
 
     .services {
         margin-top: 60px;
