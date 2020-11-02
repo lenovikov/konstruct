@@ -136,7 +136,6 @@ body {
 }
 
 .navigation__logo {
-    
     padding: 1em 0 ;
 }
 
@@ -145,7 +144,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 .navigation__list {
@@ -191,7 +189,8 @@ li {
 .menu-btn__burger {
     position: absolute;
     top: 13px;
-    height: 2px;
+    right: 15px;
+    height: 3px;
     width: 30px;
     background-color: #333333;
 }
@@ -200,7 +199,7 @@ li {
     content: '';
     position: absolute;
     top: -10px;
-    height: 2px;
+    height: 3px;
     width: 30px;
     background-color: #333333;
 }
@@ -209,7 +208,7 @@ li {
     content: '';
     position: absolute;
     top: 10px;
-    height: 2px;
+    height: 3px;
     width: 30px;
     background-color: #333333;
 }
